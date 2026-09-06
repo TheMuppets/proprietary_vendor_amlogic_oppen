@@ -7,7 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/amlogic/oppen/proprietary/product/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/netflix.xml \
-    vendor/amlogic/oppen/proprietary/recovery/root/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/etc/mesondisplay.cfg \
+    vendor/amlogic/oppen/proprietary/recovery/root/system/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
     vendor/amlogic/oppen/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/amlogic/oppen/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
     vendor/amlogic/oppen/proprietary/vendor/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mesondisplay.cfg \
